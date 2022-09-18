@@ -8,11 +8,11 @@ namespace lb1
         static void Main(string[] args)
         {
             Address address = new Address();
-            address.Apartment = "ds";
-            address.Street = "ds";
-            address.House = "ds";
-            address.City = "ds";
-            address.Country = "ds";
+            address.Apartment = "132";
+            address.Street = "H";
+            address.House = "43";
+            address.City = "Kyiv";
+            address.Country = "Ukraine";
             address.Index = 1;
 
             foreach (PropertyInfo property in address.GetType().GetProperties())
