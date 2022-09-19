@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC79498B-0334-4BA8-98B7-202A999C87AD}</ProjectGuid>
+    <ProjectGuid>{03559F54-85F1-48DF-9629-D1B416FFE7FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lb2</RootNamespace>
-    <AssemblyName>lb2</AssemblyName>
+    <RootNamespace>lb3</RootNamespace>
+    <AssemblyName>lb3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converter.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
